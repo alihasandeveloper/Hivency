@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: row;
     border-radius: 40px;
-    background: url(/Images/Bg.jpg);
+    background: url(Images/Bg.jpg);
     justify-content: center;
     margin: 0 60px;
     background-repeat: no-repeat;
