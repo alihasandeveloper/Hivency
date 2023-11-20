@@ -113,7 +113,7 @@
     font-family: Outfit;
     font-size: 20px;
     font-weight: 500;
-    line-height: 140%; /* 28px */
+    line-height: 140%;
     border-radius: 8px;
     background: #E6EFFF;
     padding: 6px 12px;
@@ -129,7 +129,7 @@
     font-size: 67px;
     font-style: normal;
     font-weight: 500;
-    line-height: 110%; /* 73.7px */
+    line-height: 110%;
     letter-spacing: -1.34px;
     margin-top: 24px;
 }
@@ -140,7 +140,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 32.4px */
+    line-height: 180%;
     margin-top: 24px;
 }
 
@@ -218,7 +218,7 @@
     font-family: Outfit;
     font-size: 20px;
     font-weight: 500;
-    line-height: 140%; /* 28px */
+    line-height: 140%;
     border-radius: 8px;
     background: #E6EFFF;
     padding: 6px 12px;
@@ -270,18 +270,16 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 140%; /* 33.6px */
+    line-height: 140%;
 }
 .service-description {
     color: var(--Black-color-2, #474747);
     text-align: center;
-
-    /* Text Size Regular */
     font-family: Questrial;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 32.4px */
+    line-height: 180%;
 }
 
 .service-footer {
@@ -297,16 +295,161 @@
     border-radius: 50px;
     border: 1px solid var(--Border-color, #E7E7E7);
     background: var(--White, #FFF);
-
-/* Text Size Regular */
     font-family: Questrial;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 32.4px */
+    line-height: 180%;
     padding: 10px 150px;
 }
 
 .blue {
     color: #015DFF;
+}
+
+/* about us  */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 134px;
+    margin-top: 130px;
+}
+
+.about-image img {
+    width: 100%;
+}
+.about-content * {
+    box-sizing: border-box;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 522px;
+    width: 636px;
+}
+.about-content-title {
+    color: #015dff;
+    font-family: outfit;
+    text-align: center;
+    font: var(--heading-6, 500 20px/140% "Outfit-Medium", sans-serif);
+    position: relative;
+    background-color: #E6EFFF;
+    border-radius: 8px;
+    padding: 6px 12px;
+    width: 110px;
+}
+.about-title {
+    color: var(--black, #161616);
+    text-align: left;
+    font: var(--heading-2, 700 50px/120% "Outfit-Medium", sans-serif);
+    position: relative;
+    font-family: Outfit;
+}
+
+.about-description {
+    color: var(--Black-color-2, #474747);
+    font-family: Questrial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+
+}
+
+.about-skil {
+    display: flex;
+    gap: 86px;
+    justify-content: flex-start;
+
+}
+
+.about-skil1, .about-skil2 {
+    width: 220px;
+    height: 192px;
+    margin-top: 20px;
+}
+.skil-title {
+    color: var(--Black, #161616);
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 24px;
+}
+.skil-description {
+    color: #161616;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    margin-top: 16px;
+}
+
+/* portfolio  */
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: #FBF8EE;
+    padding-left: 312px;
+    margin-top: 120px;
+}
+
+.portfolio {
+    color: #015dff;
+    border: 0;
+    padding: 6px 12px;
+    font-size: 20px;
+    background-color: #E6EFFF;
+    border-radius: 8px;
+    margin-top: 120px;
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: flex-start;
+    gap: 517px;
+}
+
+.text-title {
+    color: #161616;
+    font-family: outfit;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 636px;
+    height: auto;
+}
+
+.view-all {
+    margin-top: 5rem;
+}
+
+.view-all button {
+    color: #161616;
+    border: 0;
+    padding: 16px 40px;
+    font-family: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #FFCC7E;
+}
+
+.view-all button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #161616;
+}
+
+.portfolio-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 120px;
 }
