@@ -399,6 +399,7 @@
     background: #FBF8EE;
     padding-left: 312px;
     margin-top: 120px;
+    overflow: hidden;
 }
 
 .portfolio {
